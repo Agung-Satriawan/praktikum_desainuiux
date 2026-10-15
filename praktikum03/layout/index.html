@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(8, 187, 242)
+        }
+
+        .wrappper { 
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            gap: 10px;
+        }
+
+        header {
+            background-color: whitesmoke;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-weight: bold;
+            border: 1px solid;
+        }
+
+        nav {
+            background-color: rgb(239, 53, 65);
+            padding: 15px;
+            flex: 1;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid;
+        }
+
+        .main content {
+            display: flex;
+            gap: 10px;
+
+        }
+
+        article {
+            flex: 3;
+            background-color: rgb(74, 240, 24);
+            padding: 15px;
+            border: 1px solid salmon;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+
+        }
+
+        section { 
+            background-color: blueviolet;
+            padding: 15px;
+            border: 1px solid seagreen;
+            flex: 1;
+            display: flex;
+            align-items: center;
+
+        }
+
+        aside {
+            flex: 1;
+            background-color: blanchedalmond;
+            padding: 15px;
+            border: 1px solid rgb(114, 250, 230);
+
+        }
+
+        footer {
+            background-color: black;
+            padding: 15px;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid salmon;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="image.png" alt="image" width="150px" />
+            <p>ini websiteku</p>
+        </header>
+
+        <nav>
+            nav
+        </nav>
+
+        <div class="main-content">
+            <article>
+                article
+                <section>sec</section>
+                <section>sec</section>
+                <section>sec</section>
+            </article>
+
+            <aside>
+                aside
+            </aside>
+        </div>
+
+        <footer>
+
+        </footer>
+    </div>
+</body>
+</html>
